@@ -68,7 +68,11 @@
         background: #fff;
     }
 
-    #footer {    
+    #footer {  
+        height: 130px !important; 
+        .bg-image-footer {
+            height: 130px !important;
+        }  
         ul {        
             flex-flow: row !important;
         }
