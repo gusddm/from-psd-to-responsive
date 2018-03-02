@@ -1,0 +1,26 @@
+@media (max-width : 180px) {
+    #ww-logo {
+        display: none !important;
+    }
+    header {
+        nav {        
+            padding: none !important;
+            float: none !important;
+        }
+    }
+}
+
+@media (max-width : 345px) {
+    #ww-logo {
+        margin-top: 23px !important;
+        margin-right: 13px !important;
+        height: 60px !important;
+        width: 63px !important ;	
+        background: url(../assets/ww-logo-small.png) no-repeat top !important;
+    }
+    header {
+        nav {        
+            padding: none !important
+        }  
+    }
+}
