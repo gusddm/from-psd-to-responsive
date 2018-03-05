@@ -13,70 +13,45 @@
         border-radius: 4px 4px 0 0;    
     }
     
-    ul {    
-        list-style: none !important;    
-        display: inline-block !important;
-        position: relative !important;
-        padding: initial !important;
-        border: none !important;
-        top: unset !important;
-        width: initial !important;
-        background: none !important;
-        margin: 0;
+    header {
+        ul {    
+            list-style: none !important;    
+            display: inline-block !important;
+            position: relative !important;
+            padding: initial !important;
+            border: none !important;
+            top: unset !important;
+            width: initial !important;
+            background: none !important;
+            margin: 0;
 
-        li {    
-            display: inline-block;        
-            padding: 10px;
-            width: initial !important;    
-
-            span.bellow-text {
-                font-size: 13px;
-                font-weight: 600;
+            li {    
+                display: inline-block;        
+                padding: 10px;
+                width: initial !important;    
             }
-        }
+        }    
     }
-
-    .button-red {
-        display: inline-block;
-        background: #ff0000;
-        color: #fff;
-        text-decoration: none;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        box-shadow: 0 0 1px transparent; 
-        -webkit-transition-duration: 0.3s; 
-        transition-duration: 0.3s; 
-        -webkit-transition-property: transform; 
-        transition-property: transform; 
-        &:hover {
-            background: #eaeaea;
-            color: #333;
-        }        
-    }
-
-    .button-red-small {
-        @extend .button-red;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 5px;
-        padding-top: 5px;
-    }
-    
-    .button-red:hover, .button-red:focus {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        background: #fff;
-    }
-
     #footer {  
         height: 130px !important; 
         .bg-image-footer {
-            height: 130px !important;
+            height: 35% !important;
         }  
         ul {        
             flex-flow: row !important;
+
+            .separator {
+                height: 90% !important;
+                width: 4px !important;
+            }
         }
+    }    
+}
+
+@media (min-width : 1000px) {   
+    #footer {  
+        .bg-image-footer {
+            height: 25% !important;
+        }  
     }    
 }

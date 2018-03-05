@@ -20,4 +20,14 @@
             padding: none !important
         }  
     }
+    #main {
+        ul {
+            display: block !important;
+        }
+    }
+    #footer {
+        .bg-image-footer {
+            height: 100% !important;
+        }
+    }
 }
