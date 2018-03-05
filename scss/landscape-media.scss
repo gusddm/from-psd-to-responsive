@@ -28,6 +28,11 @@
             display: inline-block;        
             padding: 10px;
             width: initial !important;    
+
+            span.bellow-text {
+                font-size: 13px;
+                font-weight: 600;
+            }
         }
     }
 
@@ -48,7 +53,7 @@
         &:hover {
             background: #eaeaea;
             color: #333;
-        }
+        }        
     }
 
     .button-red-small {
